@@ -22,17 +22,15 @@ O projeto é dividido em três arquivos principais, seguindo o padrão MVC:
 1.  Certifique-se de que os três arquivos (`Produto.py`, `Service.py`, `Interface.py`) estão no mesmo diretório.
 2.  Execute o arquivo principal `Interface.py` 
 
-
 ## Funcionalidades 📄
-
 O sistema permite as seguintes operações através da interface gráfica:
 
-**CREATE** | **Adicionar** : Insere um novo produto com Nome, Preço e Quantidade. Realiza validação de campos.
-**READ** | **Listar** : Exibe todos os produtos cadastrados na tabela (`Treeview`). Executado automaticamente no início.
-**UPDATE** | **Atualizar** : Altera os dados do produto previamente selecionado na tabela. 
-**DELETE** | **Remover** : Remove o produto previamente selecionado na tabela (requer confirmação). 
-**Seleção** | **Clique na Tabela** : Preenche os campos de entrada com os dados do produto selecionado para edição ou remoção. 
-**Limpar** | **Limpar Campos** : Zera os campos de entrada e desfaz a seleção atual. 
+**CREATE** | **Adicionar** : Insere um novo produto com Nome, Preço e Quantidade. Realiza validação de campos;
+**READ** | **Listar** : Exibe todos os produtos cadastrados na tabela (`Treeview`). Executado automaticamente no início;
+**UPDATE** | **Atualizar** : Altera os dados do produto previamente selecionado na tabela;
+**DELETE** | **Remover** : Remove o produto previamente selecionado na tabela (requer confirmação); 
+**Seleção** | **Clique na Tabela** : Preenche os campos de entrada com os dados do produto selecionado para edição ou remoção; 
+**Limpar** | **Limpar Campos** : Zera os campos de entrada e desfaz a seleção atual.
 
 ## Observações Importantes ⚠️
 
