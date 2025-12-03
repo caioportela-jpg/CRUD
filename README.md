@@ -27,7 +27,6 @@ O projeto é dividido em três arquivos principais, seguindo o padrão MVC:
 
 O sistema permite as seguintes operações através da interface gráfica:
 
-| Operação | Botão/Ação | Descrição |
 | **CREATE** | **Adicionar** : Insere um novo produto com Nome, Preço e Quantidade. Realiza validação de campos. |
 | **READ** | **Listar** : Exibe todos os produtos cadastrados na tabela (`Treeview`). Executado automaticamente no início. |
 | **UPDATE** | **Atualizar** : Altera os dados do produto previamente selecionado na tabela. |
