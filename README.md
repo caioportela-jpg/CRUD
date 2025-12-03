@@ -20,18 +20,14 @@ O projeto é dividido em três arquivos principais, seguindo o padrão MVC:
 ## Como Executar ✅
 
 1.  Certifique-se de que os três arquivos (`Produto.py`, `Service.py`, `Interface.py`) estão no mesmo diretório.
-2.  Execute o arquivo principal `Interface.py` a partir do terminal:
+2.  Execute o arquivo principal `Interface.py` 
 
-    ```bash
-    python Interface.py
-    ```
 
 ## Funcionalidades 📄
 
 O sistema permite as seguintes operações através da interface gráfica:
 
 | Operação | Botão/Ação | Descrição |
-| :--- | :--- | :--- |
 | **CREATE** | **Adicionar** : Insere um novo produto com Nome, Preço e Quantidade. Realiza validação de campos. |
 | **READ** | **Listar** : Exibe todos os produtos cadastrados na tabela (`Treeview`). Executado automaticamente no início. |
 | **UPDATE** | **Atualizar** : Altera os dados do produto previamente selecionado na tabela. |
@@ -39,7 +35,7 @@ O sistema permite as seguintes operações através da interface gráfica:
 | **Seleção** | **Clique na Tabela** : Preenche os campos de entrada com os dados do produto selecionado para edição ou remoção. |
 | **Limpar** | **Limpar Campos** : Zera os campos de entrada e desfaz a seleção atual. |
 
-## ⚠️ Observações Importantes
+## Observações Importantes ⚠️
 
 * **Persistência:** O sistema armazena os dados **apenas na memória RAM** (na lista `self._produtos` do Controller). Ao fechar a aplicação, todos os dados cadastrados serão perdidos. 
 * **MVC:** O sistema adere ao princípio MVC, garantindo que a interface (`ProdutoView`) não manipule diretamente os dados, mas sim através do controlador (`ProdutoController`).
